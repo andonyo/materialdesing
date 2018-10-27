@@ -1,0 +1,129 @@
+body {
+    background: rgb(49, 49, 49);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.elementos {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja {
+    width: 240px;
+    height: 230px;
+    background: white;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: hidden;
+    transition: 0.5s;
+    margin: 0 20px;
+}
+
+.titulo {
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to bottom right, #89a2f9, rgb(85, 224, 185));
+    color: white;
+    overflow: auto;
+}
+
+.titulo-p {
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to bottom right, #f98989, rgb(224, 85, 194));
+    color: white;
+    overflow: auto;
+}
+
+.texto-t {
+    margin: 10px 5px;
+    text-align: justify;
+}
+
+.boton-caja{
+    position: absolute;
+}
+
+.boton{
+    display: block;
+    position: relative;
+    left: 80px;
+    top: 77px;
+    background: #2bc6f5;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 20px;
+    box-shadow: 0 0 5px grey;
+    cursor: pointer;
+    color: white;
+}
+
+.cuerpo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+.prioridad {
+    width: 10px;
+    height: 10px;
+    background: greenyellow;
+    border-radius: 50%;
+    margin: 15px 3px 0 0;
+}
+
+.texto-c {
+    margin: 10px 0 3px 0;
+}
+
+.barra {
+    width: 90%;
+    height: 13px;
+    background: rgb(161, 161, 161);
+    border-radius: 25px 25px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.avance {
+    height: 13px;
+    width: 10%;
+    background: red;
+    border-radius: 0 25px 25px 0;
+}
+
+.cuerpo a{
+    color: rgb(65, 65, 65);
+}
+
+.fin {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fin p{
+    margin: 20px 0 0 0;
+    color: rgb(180, 180, 180);
+}
+
+.caja:hover {
+    box-shadow: 0 0 10px rgb(219, 219, 219);
+}
+
+.titulo::-webkit-scrollbar {
+    display: none;
+}
+
+.titulo-p::-webkit-scrollbar {
+    display: none;
+}
